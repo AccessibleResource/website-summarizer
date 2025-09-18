@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const alerts = document.getElementById('alerts');
 
 
-    const API_KEY = "AIzaSyC2Fsjk3yCRA8hDVYgg5LlMn4sxwoJJaWU";
+    const API_KEY = "AIzaSyAsnCW93NN4GS7WD5f8su5S6EeVdQiA_Ls";
     const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${API_KEY}`;
     
     // --- State Management ---
