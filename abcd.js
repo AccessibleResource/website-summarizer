@@ -10,10 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const chatArea = document.getElementById('chatArea');
     const alerts = document.getElementById('alerts');
 
-    // --- API Configuration ---
-    // Note: It's highly recommended to use a backend proxy to hide your API key.
-    // Exposing it on the client-side is a security risk.
-    const API_KEY = "AIzaSyAsnCW93NN4GS7WD5f8su5S6EeVdQiA_Ls"; // Replace with your actual Gemini API Key
+
+    const API_KEY = "AIzaSyC2Fsjk3yCRA8hDVYgg5LlMn4sxwoJJaWU";
     const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${API_KEY}`;
     
     // --- State Management ---
